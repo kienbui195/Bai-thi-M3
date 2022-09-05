@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Sua thong tin</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<h1 style="margin-left: 20px">Sua Thong Tin Thanh Pho</h1>
+<form action="" method="post">
+    <div class="col-4">
+        <label for="exampleInput" class="form-label" style="margin-left: 20px">Tên</label>
+        <input type="text" class="form-control" name="name" id="exampleInput" style="margin-left: 20px">
+    </div>
+    <div class="col-4">
+        <label for="exampleInputPrice" class="form-label" style="margin-left: 20px">Quoc Gia</label>
+        <select name="country" id="exampleInputPrice">
+            <option value="vn">Viet Nam</option>
+            <option value="dl">Dong Lao</option>
+        </select>
+    </div>
+    <div class="col-4">
+        <label for="exampleInputStock" class="form-label" style="margin-left: 20px">Dien tich</label>
+        <input type="number" class="form-control" name="S" id="exampleInputStock" style="margin-left: 20px">
+    </div>
+    <div class="col-4">
+        <label for="exampleInputBrief" class="form-label" style="margin-left: 20px">Dan so</label>
+        <input type="number" class="form-control" name="numberPeople" id="exampleInputBrief" style="margin-left: 20px">
+    </div>
+    <div class="col-4">
+        <label for="exampleInputBrief1" class="form-label" style="margin-left: 20px">GDP</label>
+        <input type="number" class="form-control" name="GDP" id="exampleInputBrief1" style="margin-left: 20px">
+    </div>
+    <div class="col-4">
+        <label for="exampleInputBrief2" class="form-label" style="margin-left: 20px">Gioi thieu</label>
+        <textarea class="form-control" name="description" id="exampleInputBrief2" style="margin-left: 20px"></textarea>
+    </div>
+    <div class="col-lg-12">
+        <div class="text-center col-4" style="margin-top: 20px">
+            <button class="btn btn-primary btn-xs pull-right" type="submit">Thêm</button>
+        </div>
+    </div>
+</form>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
